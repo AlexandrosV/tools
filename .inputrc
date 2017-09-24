@@ -1,0 +1,16 @@
+############################################################
+# This file is for command binding to keystrokes on linux
+# e.g. "\eOA": "pushd\n"
+# For me, this binds Ctrl-Up to pushd followed by a newline.
+# To get the sequence to use for the keybind press Ctrl-V in
+# your terminal followed by the keystroke you desire.
+# Replace ^[ with \e and you should be good to go.
+# To reload your .inputrc in an existing terminal window,
+# press Ctrl-x Ctrl-r.
+# For more info on readline magic, see `man readline`
+############################################################
+set colored-stats on
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+#"\e[5~": "pushd +1 > /dev/null \n"
+#"\e[6~": "pushd -0 > /dev/null \n"
