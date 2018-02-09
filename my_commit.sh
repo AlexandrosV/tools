@@ -9,4 +9,3 @@ git push
 
 #For smart commits:
 #./mycommit.sh <jira ticket> "Deleted debugging prints."
-~
