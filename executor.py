@@ -43,7 +43,8 @@ def setParameters():
     conf_file = workspace + '/settings.yml'
     configurations = yaml.load(open(conf_file))
     parameters['branch'] = configurations['BRANCH']
-    parameters['NPM_VAR2'] = configurations['NPM_VAR2']
+    # Add as much parameters as needed
+    # parameters['NPM_VAR2'] = configurations['NPM_VAR2']
     return parameters
 
 
