@@ -1,0 +1,7 @@
+USER: ...
+PASSWD: ...
+SERVER: http://xxx.com
+LOAD: 3
+DELAY_BETWEEN_BUILDS: 0
+PIPELINE: Frontend
+BRANCH: development-2.1
